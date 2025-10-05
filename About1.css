@@ -111,6 +111,10 @@
   bottom: 10px;
 }
 
+.u-section-3 .u-gallery-inner-1 {
+  --gap: 0px;
+}
+
 .u-section-3 .u-carousel-item-1 {
   margin-right: 0;
 }

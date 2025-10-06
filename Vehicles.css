@@ -1,144 +1,94 @@
  .u-section-1 {
-  min-height: 1504px;
+  background-image: url("images/2025-04-15_16.13.40.png");
 }
 
-.u-section-1 .u-image-1 {
-  height: 699px;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  --animation-custom_in-translate_x: -200px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-group-elements-1 {
-  width: 823px;
-  min-height: 145px;
-  height: auto;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-  margin: -699px auto 0 calc(((100% - 1140px) / 2)  + -34px);
+.u-section-1 .u-sheet-1 {
+  min-height: 1025px;
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 4.5rem;
+  font-size: 6rem;
   font-weight: 700;
-  font-family: Oswald, sans-serif;
   --text-color-var: #fd003c;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 0 331px 0 0;
+  line-height: 1;
+  width: 798px;
+  margin: 186px auto 0;
 }
 
 .u-section-1 .u-text-2 {
-  font-size: 2.25rem;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: -28px 0 0;
-}
-
-.u-section-1 .u-image-2 {
-  height: 699px;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  --animation-custom_in-translate_x: -200px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-  margin-top: 581px;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-group-elements-2 {
-  width: 959px;
-  min-height: 153px;
-  height: auto;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-  margin: -703px auto 60px calc(((100% - 1140px) / 2)  + -23px);
-}
-
-.u-section-1 .u-text-3 {
-  font-size: 2.25rem;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 95px 0 0;
-}
-
-.u-section-1 .u-text-4 {
-  font-size: 4.5rem;
+  font-size: 1.875rem;
   font-weight: 700;
-  font-family: Oswald, sans-serif;
-  --text-color-var: #fd003c;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: -153px 28px 37px 0;
+  line-height: 1;
+  width: 671px;
+  margin: 21px auto 60px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-group-elements-1 {
-    margin-left: calc(((100% - 940px) / 2)  + -35px);
+   .u-section-1 {
+    background-position: 50% 50%;
   }
 
-  .u-section-1 .u-group-elements-2 {
-    margin-top: -1253px;
-    margin-left: calc(((100% - 940px) / 2)  + -34px);
+  .u-section-1 .u-sheet-1 {
+    min-height: 974px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 823px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-bottom: -147px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-group-elements-1 {
-    width: 720px;
-    margin-left: calc(((100% - 720px) / 2));
+  .u-section-1 .u-sheet-1 {
+    min-height: 928px;
   }
 
-  .u-section-1 .u-group-elements-2 {
-    width: 720px;
-    margin-left: calc(((100% - 720px) / 2));
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 175px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin: 25px 25px 60px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-group-elements-1 {
-    width: 540px;
-    margin-left: calc(((100% - 540px) / 2));
+  .u-section-1 .u-sheet-1 {
+    min-height: 1241px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 4rem;
+    font-size: 5.333333333333333rem;
+    margin-top: 1010px;
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 2rem;
-  }
-
-  .u-section-1 .u-group-elements-2 {
-    width: 540px;
-    margin-left: calc(((100% - 540px) / 2));
-  }
-
-  .u-section-1 .u-text-3 {
-    font-size: 2rem;
-  }
-
-  .u-section-1 .u-text-4 {
-    font-size: 4rem;
+    font-size: 1.6666666666666665rem;
+    margin: 53px 0 -823px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-group-elements-1 {
-    width: 340px;
-    margin-left: calc(((100% - 340px) / 2));
+  .u-section-1 .u-sheet-1 {
+    min-height: 1145px;
   }
 
-  .u-section-1 .u-group-elements-2 {
-    width: 340px;
-    margin-left: calc(((100% - 340px) / 2));
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    margin-top: 400px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 12px;
+    margin-bottom: 60px;
   }
 }

@@ -46122,7 +46122,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 62px;
+  min-height: 76px;
 }
 
 .u-header .u-image-1 {
@@ -46133,7 +46133,7 @@ a.u-link.u-text-hover-color-var:hover {
   --animation-custom_in-opacity: 0.9;
   --animation-custom_in-rotate: 180deg;
   --animation-custom_in-scale: 1;
-  margin: 6px auto 0 0;
+  margin: 11px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -46141,43 +46141,31 @@ a.u-link.u-text-hover-color-var:hover {
   height: 100%;
 }
 
-.u-header .u-text-1 {
-  font-size: 1.5rem;
+.u-header .u-menu-1 {
+  margin: -44px auto 13px 76px;
+}
+
+.u-header .u-nav-1 {
   font-weight: 400;
-  margin: -43px auto 0 279px;
+  font-size: 1.875rem;
+  text-transform: uppercase;
 }
 
-.u-header .u-btn-1 {
-  background-image: none;
-  padding: 0;
+.u-header .u-sidenav-1 {
+  --color-var: #fd003c;
+  width: 25%;
+  --sidenav-width: 25%;
 }
 
-.u-header .u-text-2 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin: -38px auto 0 165px;
+.u-header .u-menu-close-1 {
+  width: 22px;
+  height: 28px;
+  margin: 33px -22px 0 auto;
 }
 
-.u-header .u-btn-2 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-header .u-text-3 {
-  font-size: 1.5rem;
-  margin: -38px auto 0 75px;
-}
-
-.u-header .u-btn-3 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-header .u-btn-4 {
-  background-image: none;
-  font-size: 1.5rem;
-  margin: -36px auto 16px 360px;
-  padding: 0;
+.u-header .u-nav-2 {
+  font-size: 1.25rem;
+  text-transform: none;
 }
 @media (max-width: 1199px) {
    .u-header {
@@ -46185,102 +46173,88 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-header .u-sheet-1 {
-    min-height: 64px;
+    min-height: 67px;
   }
 
-  .u-header .u-text-1 {
+  .u-header .u-image-1 {
+    margin-top: 14px;
+  }
+
+  .u-header .u-menu-1 {
     width: auto;
-    margin-top: -43px;
+    margin-top: -49px;
+    margin-bottom: 12px;
+    margin-left: 78px;
   }
 
-  .u-header .u-text-2 {
-    width: auto;
-    margin-top: -38px;
-  }
-
-  .u-header .u-text-3 {
-    margin-top: -38px;
-  }
-
-  .u-header .u-btn-4 {
-    margin-bottom: 18px;
+  .u-header .u-nav-2 {
+    text-transform: uppercase;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 65px;
+  .u-header .u-image-1 {
+    margin-top: 8px;
   }
 
-  .u-header .u-btn-4 {
-    margin: -36px 309px 19px auto;
+  .u-header .u-menu-1 {
+    margin-top: -45px;
+    margin-left: auto;
+    margin-bottom: 8px;
+    width: auto;
+  }
+
+  .u-header .u-nav-2 {
+    margin: -48px -172px 0 auto;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 60px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: 5px;
-  }
-
-  .u-header .u-text-1 {
-    font-size: 1.3333333333333333rem;
-    margin-top: -41px;
-    margin-right: 224px;
-    margin-left: auto;
-  }
-
-  .u-header .u-text-2 {
-    font-size: 1.3333333333333333rem;
-    margin-top: -34px;
-    margin-left: 162px;
-  }
-
-  .u-header .u-text-3 {
-    font-size: 1.3333333333333333rem;
-    width: auto;
-    margin-top: -34px;
-    margin-left: 78px;
-  }
-
-  .u-header .u-btn-4 {
-    font-size: 1.3125rem;
-    margin-top: -31px;
-    margin-right: 148px;
-    margin-bottom: 17px;
-  }
-}
-@media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 57px;
+    min-height: 62px;
   }
 
   .u-header .u-image-1 {
     margin-top: 9px;
   }
 
-  .u-header .u-text-1 {
-    margin-top: -40px;
-    margin-right: 94px;
+  .u-header .u-menu-1 {
+    margin-top: -42px;
+    margin-bottom: 13px;
   }
 
-  .u-header .u-text-2 {
-    margin-top: -34px;
-    margin-left: 117px;
+  .u-header .u-nav-1 {
+    font-size: 1.25rem;
   }
 
-  .u-header .u-text-3 {
-    margin-top: -35px;
-    margin-left: 55px;
+  .u-header .u-nav-2 {
+    font-size: 1.875rem;
+    margin-top: 26px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 61px;
   }
 
-  .u-header .u-btn-4 {
-    margin-top: -34px;
-    margin-right: 41px;
-    margin-bottom: 11px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+  .u-header .u-image-1 {
+    margin-top: 8px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -44px;
+    margin-bottom: 8px;
+    margin-left: 0;
+  }
+
+  .u-header .u-sidenav-1 {
+    width: 50%;
+    --sidenav-width: 50%;
+    --opacity: 0.9;
+  }
+
+  .u-header .u-nav-2 {
+    margin-top: 13px;
   }
 }
  .u-footer {

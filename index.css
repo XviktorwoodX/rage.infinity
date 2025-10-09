@@ -10,33 +10,24 @@
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 690px;
+    min-height: 0;
   }
 
   .u-section-1 .u-image-1 {
-    height: 717px;
-    margin-top: -28px;
+    height: 617px;
+    margin-top: 0;
     margin-bottom: 0;
   }
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    min-height: 601px;
-  }
-
   .u-section-1 .u-image-1 {
     height: 599px;
-    margin-top: 0;
     margin-bottom: 2px;
   }
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
-    min-height: 0;
-  }
-
   .u-section-1 .u-image-1 {
     height: 339px;
     margin-bottom: 0;
@@ -143,7 +134,14 @@
     font-size: 1.3333333333333333rem;
     margin-top: -5px;
   }
-}.u-section-3 .u-sheet-1 {
+} .u-section-3 {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(26, 26, 26, 1), rgba(26, 26, 26, 1));
+  background-size: cover;
+}
+
+.u-section-3 .u-sheet-1 {
   min-height: 636px;
 }
 
@@ -179,6 +177,7 @@
 
 .u-section-3 .u-gallery-inner-1 {
   --gap: 0px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .u-section-3 .u-carousel-item-1 {
@@ -611,19 +610,19 @@
 }
 
 .u-section-6 .u-sheet-1 {
-  min-height: 565px;
+  min-height: 568px;
 }
 
 .u-section-6 .u-group-elements-1 {
-  width: 1043px;
-  min-height: 188px;
+  width: 1047px;
+  min-height: 149px;
   height: auto;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 24px auto 0;
+  margin: 24px 34px 0 auto;
 }
 
 .u-section-6 .u-text-1 {
@@ -631,12 +630,12 @@
   font-weight: 700;
   font-family: Oswald, sans-serif;
   --text-color-var: #000000;
-  margin: 0 426px 0 0;
+  margin: 0 337px 0 0;
 }
 
 .u-section-6 .u-text-2 {
   font-size: 1.5rem;
-  margin: -4px 0 0;
+  margin: -5px 0 0;
 }
 
 .u-section-6 .u-image-1 {
@@ -647,7 +646,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -25px auto 0;
+  margin: 18px auto 0;
 }
 
 .u-section-6 .u-text-3 {
@@ -689,6 +688,11 @@
     width: auto;
     margin-left: 0;
     margin-right: 0;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 }
 
